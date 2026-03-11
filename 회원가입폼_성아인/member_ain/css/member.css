@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+*,*:after, *:before{box-sizing: border-box;}
+body{font-size: 0.8rem; background: #E6E1DC;}
+.logo{width: 100%; text-align: center; padding-top:80px;}
+#mem{background-color:rgba(255, 255, 255, 0.4);width: 600px; height: 700px; border-radius: 30px;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);margin-top: 60px;}
+#mem legend{text-align: center;font-size: 32px; padding-top: 10%; font-weight: bold;}
+#mem .id2{background-color: #000;color: #fff;border-radius: 12px;border: 1px solid #000;display: inline-block;font-size: 12px;padding: 5px;}
+
+.group{padding-top: 5%; display: block;}
+#mem ul li{padding-left: 10%;font-size:15px;margin: 10px 0; height: 30px; }
+#mem ul li label{font-size: 15px;width: 20%; display: inline-block;}
+#mem input{border-radius: 8px;background-color:rgba(255, 255, 255, 0.1) ; height: 30px; margin-left: 30px;border: 1px solid #000; padding-left: 10px; color: #9E9D9E;}
+input::-webkit-input-placeholder{font-size: 12px;}
+
+#button{display: flex; flex-wrap: wrap; justify-content: center;padding-top: 8%;}
+#button .submit{display: block; border-radius: 12px;width:60%;background-color: #000;color: #fff;margin-bottom: 2%;height: 40px;}
+#button .reset{border-radius: 12px;width: 60%;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #000;height: 40px;}
+
