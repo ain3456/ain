@@ -52,7 +52,7 @@ let autoSlideInterval;
 function setEventListeners() {
 prevBtn.addEventListener("click", onPrevClick);
 nextBtn.addEventListener("click", onNextClick);
-const bookRollLinks = document.querySelectorAll("#roll");
+const bookRollLinks = document.querySelectorAll("#roll a");
 for (let i = 0; i < bookRollLinks.length; i++) {
 bookRollLinks[i].addEventListener("click", 
                    createBookRollClickHandler(i));
