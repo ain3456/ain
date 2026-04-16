@@ -1,0 +1,17 @@
+@import "./size.scss";
+
+@include tablet{
+    header{
+        .xi-bars{
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@include laptop{
+
+}
+
+@include desktop{
+
+}

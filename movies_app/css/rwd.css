@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/*반응형 화면 크기*/
+@media (min-width: 481px) {
+  header .xi-bars {
+    font-size: 1.8rem;
+  }
+}/*# sourceMappingURL=rwd.css.map */

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xpressengine/xeicon@latest/xeicon.min.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+</head>
+<body>
+<div id="top"></div>
+<!--헤더(메뉴버튼)-->
+<header id="header">
+    <i class="xi-bars"></i>
+</header>
+
+<section>
+<!--메인 이미지-->
+<div id="main-img">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!--찾기-->
+    <div id="search-box">
+        <form>
+            <i class="xi-search"></i>
+            <input id="input" type="text" placeholder="입력">
+        </form>
+    </div>
+</div>
+
+<div id="title"><h1>Moives</h1></div>
+
+<!--popular-->
+<div class="box">
+    <div class="head-box">
+        <h2>Popular</h2>
+        <button class="more-btn">전체 보기</button>
+    </div>
+    <div id="popular"></div>
+</div>
+
+<!--top-rated-->
+<div class="box">
+    <div class="head-box">
+        <h2>Top Rated</h2>
+        <button class="more-btn">전체 보기</button>
+    </div>
+    <div id="top-rated"></div>
+</div>
+
+<!--now playing-->
+<div class="box">
+    <div class="head-box">
+        <h2>Now Playing</h2>
+        <button class="more-btn">전체 보기</button>
+    </div>
+    <div id="playing"></div>
+</div>
+
+<!--탑버튼/다크모드-->
+<div id="btn">
+    <ul>
+        <li class="dark-mode"><a href="#"><img onclick="darkMode(this,event)" value="day" src="img/darkMode.png" alt="다크모드"></a></li>
+        <li class="light-mode"><a href="#"><img onclick="darkMode(this,event)" value="night" src="img/lightMode.png" alt="라이트모드"></a></li>
+        <li class="light-top"><a href="#top"><img onclick="darkMode(this.event)" value="day" src="img/topButton.png" alt="탑버튼"></a></li>
+        <li class="dark-top"><a href="#top"><img onclick="darkMode(this.event)" value="night" src="img/topButton_black.png" alt="탑버튼"></a></li>
+    </ul>
+</div>
+
+<footer>
+    <div id="footer-box">
+        <p>This product uses the TMDb API but is not endorsed or certified by TMDb.<br>
+        이 사이트는 TMDb API를 사용하지만 TMDb의 공식 인증 또는 보증을 받지 않았습니다.</p>
+    </div>
+</footer>
+
+<!--하단메뉴-->
+<nav id="nav">
+    <ul>
+        <li><a href="app_main.html"><i class="xi-home-o"></i>홈</a></li>
+        <li class="active-button"><a href="#"><i class="xi-home"></i>홈</a></li>
+        <li><a href="#input"><i class="xi-search"></i>찾기</a></li>
+        <li><a href="#"><i class="xi-heart-o"></i>즐겨찾기</a></li>
+        <li class="active-button"><a href="#"><i class="xi-heart">즐겨찾기</i></a></li>
+        <li><a href="#"><i class="xi-profile-o"></i>계정</a></li>
+        <li class="active-button"><a href="#"><i class="xi-profile">계정</i></a></li>
+    </ul>
+</nav>
+
+<script src="js/movie.js"></script>
+<script src="js/main.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/bottom-menu.js"></script>
+</body>
+</html>
