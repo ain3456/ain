@@ -1,0 +1,41 @@
+/*팝업1*/
+#modal{width: 100%;height: 100%; background-color: rgba(0, 0, 0, 0.8);z-index: 10000;position:fixed;top: 0; left: 0;bottom: 0;right: 0;opacity: 0;visibility: hidden;transition: 0.3s;}
+.modal_on{opacity: 1!important; visibility: visible!important;}
+
+#popup{width: 500px;height: 500px;background: #FFE591;z-index: 10001;border-radius: 0 50px 0 50px;display: none;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+#top{width:100%;display: flex;position: absolute;top: 30%;transform: translateY(-30%);padding-left: 50px;}
+#top>#bookimg{width: 250px;}
+#bookimg>img{width: 100%;}
+#top ul li{width: 80%;margin-bottom: 10px;}
+#top ul li:first-child{font-size: 1.5rem;font-weight: bold;}
+#top ul li:nth-child(2){font-size: 1.1rem;}
+#top ul li:nth-child(3){font-size: 0.8rem;line-height: 2;}
+#top ul li:last-child{font-weight: bold;font-size: 1rem;padding-top: 10px;}
+#cross{position: absolute; top: 30px;right:30px;cursor: pointer;}
+
+#btm{position: absolute;top: 80%;transform: translateY(-80%);padding-left: 50px;}
+#btm li:first-child{font-size: 0.9rem;font-weight: bold;}
+#btm li ul{display: flex;margin-top: 20px;}
+#btm li ul li{margin-right: 20px;border-radius: 30px; background: rgba(255, 255, 255, 0.8);padding: 8px 20px; font-weight: bold;font-size: 0.9rem;box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.4);cursor: pointer;}
+
+/*팝업2*/
+#modal2{width: 100%;height: 100%; background-color: rgba(0, 0, 0, 0.8);z-index: 10000;position:fixed;top: 0; left: 0;bottom: 0;right: 0;opacity: 0;visibility: hidden;transition: 0.3s;}
+.modal_on{opacity: 1!important; visibility: visible!important;}
+
+#popup2{width: 500px;height: 500px;background: #FFE591;z-index: 10001;border-radius: 0 50px 0 50px;display: none;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+#top2{width:100%;display: flex;position: absolute;top: 30%;transform: translateY(-30%);padding-left: 50px;}
+#top2>#bookimg2{width: 250px;}
+#bookimg2>img{width: 100%;}
+#top2 ul{ padding-left: 20px;}
+#top2 ul li{width: 80%;margin-bottom: 10px;}
+#top2 ul li:first-child{font-size: 1.5rem;font-weight: bold;}
+#top2 ul li:nth-child(2){font-size: 1.1rem;}
+#top2 ul li:nth-child(3){font-size: 0.8rem;line-height: 2;}
+#top2 ul li:last-child{font-weight: bold;font-size: 1rem;padding-top: 10px;}
+#cross2{position: absolute; top: 30px;right:30px;cursor: pointer;}
+
+#btm2{position: absolute;top: 75%;transform: translateY(-75%);padding-left: 35px;}
+#btm2 li:first-child{font-size: 0.9rem;font-weight: bold;}
+#btm2 li ul{display: flex;margin-top: 20px;}
+#btm2 li ul li{margin-right: 20px;border-radius: 30px; background: rgba(255, 255, 255, 0.8);padding: 8px 20px; font-weight: bold;font-size: 0.9rem;box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.4);cursor: pointer;}
+
