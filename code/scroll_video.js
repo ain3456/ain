@@ -1,6 +1,6 @@
 const box = document.querySelector("#box");
 const video = document.querySelector("#video");
-const vidBtn = document.querySelector("#vidButton");
+const vidBtn = document.querySelector("#videoButton");
 const scrollIcon = document.querySelector("#scrollIcon");
 
 window.addEventListener("scroll", function(){
